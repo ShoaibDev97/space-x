@@ -42,7 +42,8 @@ const Banner = () => {
                 <div className="banner__content" style={{ color: "white" }}>
                     <h1>Sustained <span> Lunar </span> Exploration</h1>
                     <p>SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology</p>
-                    <button className="btn__primary mt-3">Explore More</button>
+                    <a href="Grid__list"></a>
+                    <button className="btn__primary mt-3" >Explore More</button>
                 </div>
             </div>
         </div>

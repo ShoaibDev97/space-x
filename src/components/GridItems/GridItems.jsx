@@ -21,7 +21,7 @@ const GridItems = ({capsules,loader}) =>{
     }
 
     return(
-        <div className="grid__item__wrapper">
+        <div className="grid__item__wrapper" >
             <div className="container">
                
                 {!loader ? (    
