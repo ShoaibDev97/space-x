@@ -1,0 +1,48 @@
+/* Global Styling  */
+:root{
+    --primaryColor:#e45353;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.btn__primary{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid var(--primaryColor);
+    color: var(--primaryColor);
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+.btn__primary:hover{
+    color: white;
+    background-color: var(--primaryColor);
+}
+
+.no__result{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--primaryColor);
+}
+.btn__primary__fill{
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+}
+
+@media(max-width:476px){
+    .banner__content h1{
+        font-size: 2rem!important;
+    }
+    .banner__content p{
+        font-size: 1rem!important;
+    }
+    .banner__wrapper .banner__content{
+        width: 100%;
+    }
+}

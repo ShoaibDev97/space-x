@@ -1,0 +1,42 @@
+.banner__wrapper {
+    background: linear-gradient(rgba(30, 30, 31, 0.9), rgba(26, 27, 27, 0.7)), url('../../assets/images/banner/rocket.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.banner__wrapper header{
+    position: relative;
+}
+
+.banner__wrapper svg.logo{
+    max-width: 150px;
+    margin-left: 10px;
+}
+.banner__wrapper .logo__icon{
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+}
+.banner__wrapper .banner__content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 25px;
+}
+ .banner__content h1{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+ }
+ .banner__content h1 span{
+    color: var(--primaryColor)
+ }
+ .banner__content p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+ }

@@ -1,0 +1,9 @@
+.list__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.list__item p{
+    font-weight: bold;
+}
